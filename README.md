@@ -12,7 +12,11 @@ Bloom is a responsive React and TypeScript web app for a fictional matcha café,
 
 **Navigation** — Instead of a typical nav bar competing with the hero image, I used a small icon that opens a full screen slide-in panel with Menu, Cart, and About. It keeps the first screen calm and focused on the brand while still being one tap away.
 
-<div align = "center">![Content flow showing photography and text rhythm](design-content-flow.png)</div>
+<div align="center">
+
+![Content flow showing photography and text rhythm](design-content-flow.png)
+
+</div>
 
 **Colors and type** — I went with a soft pink and deep coral palette instead of the bright bold colors most food apps use, to match the calm, ritual feel of the brand. I paired a serif font for headlines with a clean sans serif for body text to keep things readable.
 
