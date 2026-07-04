@@ -11,8 +11,8 @@
 }
 
 .description{
-    margin-top: 1rem;
-    font-size: 1.9rem;
+    margin-top: 2rem;
+    font-size: clamp(1.5rem, 5vw, 1.5rem);
     color: white;
     background-color: #C94042;
     border-top-left-radius: 50rem;
@@ -20,7 +20,7 @@
 }
 
 .description2{
-    font-size: 2rem;
+    font-size: clamp(1.25rem, 6vw, 2rem);
     margin-top: -6rem;
     margin-bottom: -1rem;
 }

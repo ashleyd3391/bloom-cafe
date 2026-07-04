@@ -1,17 +1,18 @@
 .footer {
     margin-top: 5rem;
     background-image: url('../../assets/footer-background.png');
-    background-size: cover;
-    height: 350px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding-top: 5rem;
+    padding-top: 8rem;
+    padding-bottom: 5rem;
 }
 
 .text {
     color: white;
-    font-size: 1.3rem;
+    font-size: clamp(1.2rem, 5vw, 1.5rem);
     letter-spacing: 0.2rem;
 }
