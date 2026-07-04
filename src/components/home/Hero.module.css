@@ -6,7 +6,6 @@
     background-repeat: no-repeat;
     min-height: 100vh;
     background-position: left -100px;
-    padding: 1.5rem;
 }
 
 .title{
@@ -24,6 +23,55 @@
 }
 
 .image{
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .hero{
+        background-position: left -200px;    
+    }
+
+   .title{
+        font-size: clamp(5rem, 4vw, 7rem);
+   }
+
+   .description{
+        margin-top: 40vh;
+        margin-bottom: 2rem;
+        font-size: clamp(2.3rem, 2vw, 2.5rem);
+   }
+
+   .image{
+        width: 80%;
+        margin: 0 auto;
+   }
+}
+
+@media (min-width: 1024px) {
+    .hero{
+        background-position: left -40px;   
+        background-size: 80% 40%;   
+        background-image: url('../../assets/desktop-background.png');
+        display: grid;
+        grid-template-columns: 10fr 10fr;
+        grid-template-rows: 10fr 10fr;
+    }
+
+   .title{
+        font-size: clamp(7rem, 4vw, 9rem);
+         width: 100%;
+         height: 25%;
+         margin-left: 100%;
+         text-align: center;
+    }
+
+   .description{
+        margin-top: 50rem;
+        font-size: clamp(1.4rem, 5vw, 2rem);
+   }
+
+   .image{
+        margin-top: -22rem;
+    }
 }
