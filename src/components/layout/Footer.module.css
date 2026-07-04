@@ -1,0 +1,17 @@
+.footer {
+    margin-top: 5rem;
+    background-image: url('../../assets/footer-background.png');
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.text {
+    color: white;
+    font-size: 1.3rem;
+    letter-spacing: 0.2rem;
+}

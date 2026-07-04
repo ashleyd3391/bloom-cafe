@@ -5,7 +5,7 @@ function Home() {
     return (
         <main>
             <Hero />
-            <Mission />
+            <Mission />    
         </main>
     )
 }
