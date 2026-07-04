@@ -1,0 +1,40 @@
+.mission{
+    display: flex;
+    flex-direction: column;
+}
+
+.description, .description2{
+    padding: 10rem 2.5rem 5rem 2.5rem;
+    text-align: center;
+        letter-spacing: 0.2rem;
+
+}
+
+.description{
+    margin-top: 1rem;
+    font-size: 1.9rem;
+    color: white;
+    background-color: #C94042;
+    border-top-left-radius: 50rem;
+    border-top-right-radius: 50rem;
+}
+
+.description2{
+    font-size: 2rem;
+    margin-top: -6rem;
+    margin-bottom: -1rem;
+}
+
+.logo{
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    margin-left: 42%;
+    margin-top: 7rem;
+    filter: invert(67%) sepia(99%) saturate(4590%) hue-rotate(322deg) brightness(104%) contrast(95%);    opacity: 0.5;
+}
+
+.image{
+    width: 87%;
+    margin: 0 auto;
+}
