@@ -1,4 +1,4 @@
-# Bloom — A Matcha Café Experience
+# Bloom | A Matcha Café Experience
 
 ## Overview
 
