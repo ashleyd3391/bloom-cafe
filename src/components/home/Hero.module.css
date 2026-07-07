@@ -17,9 +17,10 @@
 .description{
     font-size: clamp(1rem, 5vw, 1.5rem);
     text-align: center;
-    margin-top: 25vh;
+    padding-top: 15rem;
     margin-bottom: 1rem;
     letter-spacing: 0.15rem;
+    position: sticky;
 }
 
 .image{
@@ -29,18 +30,19 @@
 
 @media (min-width: 768px) {
     .hero{
-        background-position: left -200px;    
+        background-image: url('../../assets/desktop-background.png');
+        background-position: left -2vh;  
     }
 
    .title{
         font-size: clamp(5rem, 4vw, 7rem);
-   }
+        margin-bottom: 5rem;
+    }
 
    .description{
-        margin-top: 40vh;
         margin-bottom: 2rem;
         font-size: clamp(2.3rem, 2vw, 2.5rem);
-   }
+    }
 
    .image{
         width: 80%;
@@ -50,12 +52,11 @@
 
 @media (min-width: 1024px) {
     .hero{
-        background-position: left -40px;   
-        background-size: 80% 40%;   
+        background-position: left -2vh;   
+        background-size: 75%;   
         background-image: url('../../assets/desktop-background.png');
         display: grid;
-        grid-template-columns: 10fr 10fr;
-        grid-template-rows: 10fr 10fr;
+        grid-template-columns: 1fr 1fr;
     }
 
    .title{
@@ -68,10 +69,13 @@
 
    .description{
         margin-top: 50rem;
-        font-size: clamp(1.4rem, 5vw, 2rem);
+        font-size: clamp(2rem, 3vw, 2.5rem);
+        grid-column: 2;
    }
 
    .image{
-        margin-top: -22rem;
+        margin-top: -60vh;
+        position: relative;
+        grid-column: 1;
     }
 }
